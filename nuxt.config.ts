@@ -7,6 +7,6 @@ export default defineNuxtConfig({
     compatibilityVersion: 4
   },
 
-  modules: ['@nuxt/ui'],
+  modules: ['@nuxt/ui', '@pinia/colada-nuxt', '@pinia/nuxt'],
   css: ['~/assets/css/main.css']
 })
